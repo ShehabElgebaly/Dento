@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DENTO</title>
+
+    <link rel="stylesheet" href="assets/css/mystyle.css">
+
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="icon" href="assets/images/core_img/favicon.ico">
+</head>
+
+<body>
+   <a href="index.html" class="back-home">
+        <i class="fa fa-arrow-left"></i> Back to Home
+    </a>
+    
+    <section class="register-page">
+
+        <div class="login-card">
+
+            <img src="assets/images/core_img/logo.png" alt="Logo">
+
+            <h2>Create Account</h2>
+
+            <p>Create your account to book your appointment.</p>
+
+            <form class="login-form" name="registerForm">
+
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter your full name" id="fullName" name="fullName">
+                <span id="nameError" class="error-message"></span> 
+
+                <label>Email</label>
+                <input type="email" placeholder="Enter your email" id="email" name="email">
+                <span id="emailError" class="error-message"></span>
+
+                <label>Password</label>
+                <input type="password" placeholder="Enter your password" id="password" name="password">
+                <span id="passwordError" class="error-message"></span>
+
+                <label>Confirm Password</label>
+                <input type="password" placeholder="Confirm your password" id="confirmPassword" name="confirmPassword">
+                <span id="confirmError" class="error-message"></span>
+
+                <button type="submit">Create Account</button>
+
+            </form>
+
+            <div class="line">
+                <span>OR</span>
+            </div>
+
+            <div class="social-buttons">
+
+                <a href="#">
+                    <i class="fa fa-google"></i>
+                    Continue with Google
+                </a>
+
+                <a href="#">
+                    <i class="fa fa-facebook"></i>
+                    Continue with Facebook
+                </a>
+
+            </div>
+
+            <div class="signup">
+
+                <p>
+                    Already have an account?
+                    <a href="login.html">Login</a>
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="assets/js/register.js"></script>
+</body>
+
+</html>
