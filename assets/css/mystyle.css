@@ -799,12 +799,6 @@ body.dark-mode .table {
     cursor: pointer;
 }
 
-@media (max-width: 640px) {
-    .appointment-form .form-grid {
-        grid-template-columns: 1fr;
-    }
-}
-
 .booking-appointment .container {
     max-width: 1350px;
     margin: 0 auto;
