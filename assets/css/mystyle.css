@@ -933,10 +933,6 @@ body.dark-mode .table {
     font-size: 0.9rem;
   }
 
-  .b-form textarea.form-control {
-    rows: 4;
-  }
-
   .error-message {
     font-size: 0.75rem;
   }
