@@ -863,6 +863,85 @@ body.dark-mode .table {
     text-align: center;
 }
 
+@media (max-width: 991px) {
+  .booking-appointment {
+    height: auto;
+    padding: 60px 0 70px;
+  }
+
+  .booking-appointment h2 {
+    font-size: 2.2rem;
+  }
+
+  .b-form {
+    max-width: 700px;
+  }
+
+  .b-form .form-grid {
+    gap: 18px;
+  }
+}
+
+@media (max-width: 767px) {
+  .booking-appointment {
+    padding: 50px 0 60px;
+  }
+
+  .booking-appointment h2 {
+    font-size: 1.8rem;
+  }
+
+  .b-form {
+    max-width: 100%;
+    margin-top: 30px;
+  }
+
+  .b-form .form-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .b-form .field {
+    grid-column: 1 / -1;
+  }
+
+  .b-form .form-control {
+    padding: 14px 16px;
+    font-size: 0.95rem;
+  }
+
+  .b-button {
+    margin-top: 20px;
+  }
+
+  .b-button .b-booking {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .booking-appointment {
+    padding: 40px 0 50px;
+  }
+
+  .booking-appointment h2 {
+    font-size: 1.5rem;
+  }
+
+  .b-form .form-control {
+    padding: 12px 14px;
+    font-size: 0.9rem;
+  }
+
+  .b-form textarea.form-control {
+    rows: 4;
+  }
+
+  .error-message {
+    font-size: 0.75rem;
+  }
+}
+
 
 /* ============ End Pricing and Booking ============ */
 
