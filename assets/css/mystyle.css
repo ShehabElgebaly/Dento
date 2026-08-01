@@ -713,6 +713,58 @@ body.dark-mode .table {
     color: #fff;
 }
 
+@media (max-width: 768px){
+  .page-title{
+    font-size: 1.8rem;
+  }
+  .p-table{
+    width: 95%;
+    border-spacing: 5px;
+  }
+  .p-table thead th,
+  .p-table tbody td{
+    padding: 14px 16px;
+    font-size: 0.9rem;
+  }
+  .p-readmore{
+    padding: 12px 30px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 576px){
+  .prices{
+    height: auto;
+    padding: 20px 0;
+  }
+  .page-title{
+    font-size: 1.5rem;
+  }
+  .p-table{
+    width: 100%;
+    border-spacing: 4px;
+  }
+  .p-table thead th,
+  .p-table tbody td{
+    padding: 10px 12px;
+    font-size: 0.75rem;
+    border-radius: 5px;
+  }
+  
+  .p-table thead th:nth-child(2),
+  .p-table tbody td:nth-child(2){
+    display: none;
+  }
+  .p-button{
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 60px;
+  }
+  .p-readmore{
+    padding: 12px 24px;
+    font-size: 0.85rem;
+  }
+}
 
 /*Booking*/
 
@@ -799,11 +851,6 @@ body.dark-mode .table {
     cursor: pointer;
 }
 
-@media (max-width: 640px) {
-    .appointment-form .form-grid {
-        grid-template-columns: 1fr;
-    }
-}
 
 .booking-appointment .container {
     max-width: 1350px;
