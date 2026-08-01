@@ -2,8 +2,10 @@
 #Demo : https://shehabelgebaly.github.io/Dento/
   - Direct to Website
 
-#Project Team Names:
-- Shehab Eldin Osama Mahmoud Mohamed  #Leader
-- Asmaa Abdulghany Abdulhamied Abdulghany
+#Team Members:
+ #Leader 
+ - Shehab Eldin Osama Mahmoud Mohamed
+   #The Others:
+   - Asmaa Abdulghany Abdulhamied Abdulghany
 
   
