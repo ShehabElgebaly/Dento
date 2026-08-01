@@ -3,10 +3,10 @@
   - Direct to Website
 
 #Team Members:
- #Leader 
- - Shehab Eldin Osama Mahmoud Mohamed
- - #The Others:
- -   - Asmaa Abdulghany Abdulhamied Abdulghany
-     - Fatma El-Said Mahmoud Zaker
+ - #Leader
+     - Shehab Eldin Osama Mahmoud Mohamed
+     - #The Others:
+      -   - Asmaa Abdulghany Abdulhamied Abdulghany
+          - Fatma El-Said Mahmoud Zaker
 
   
