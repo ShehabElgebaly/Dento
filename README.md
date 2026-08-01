@@ -2,11 +2,11 @@
 #Demo : https://shehabelgebaly.github.io/Dento/
   - Direct to Website
 
-#Team Members:
- - #Leader
-     - Shehab Eldin Osama Mahmoud Mohamed
-     - #The Others:
-      -   - Asmaa Abdulghany Abdulhamied Abdulghany
-          - Fatma El-Said Mahmoud Zaker
+# Team
+
+- **Team Leader:** Shehab Eldin Osama Mahmoud Mohamed
+- **Team Members:**
+  - Asmaa Abdulghany Abdulhamied Abdulghany
+  - Fatma El-Said Mahmoud Zaker
 
   
